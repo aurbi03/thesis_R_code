@@ -1,0 +1,109 @@
+Raw responses read: 158
+Excluded (sequential): consent=13 age=0 audio=5 incomplete=19 no_interface=1
+Total excluded: 38  (of 158 raw responses)
+Final analysis sample (participants): 120
+Clip-level observations (long rows): 720
+Evaluation composite Cronbach's alpha: 0.955
+Recommendation trust/reliance alpha: 0.777
+
+================ SAMPLE DESCRIPTIVES (Section 4.1) ================
+Age: M=30.2, SD=11.9, range 18-69
+Gender (n=120):
+  Female                       66 (55.0%)
+  Male                         53 (44.2%)
+  Prefer not to say            1 (0.8%)
+Education (n=120):
+  Bachelor’s degree          56 (46.7%)
+  Master’s degree            34 (28.3%)
+  Secondary school / high school 21 (17.5%)
+  Vocational training          6 (5.0%)
+  Other                        2 (1.7%)
+  Doctoral degree              1 (0.8%)
+Device (n=120):
+  Smartphone                   94 (78.3%)
+  Laptop or desktop computer   26 (21.7%)
+Streaming frequency (n=120):
+  Several times a day          88 (73.3%)
+  Several times a week         17 (14.2%)
+  About once a day             11 (9.2%)
+  About once a week            2 (1.7%)
+  Rarely or never              2 (1.7%)
+Most-used platform (n=120):
+  Spotify                      58 (48.3%)
+  YouTube Music                19 (15.8%)
+  Apple Music                  14 (11.7%)
+  Spotify,YouTube Music        14 (11.7%)
+  Spotify,Apple Music,YouTube Music 4 (3.3%)
+  Spotify,YouTube Music,SoundCloud 3 (2.5%)
+  Spotify,Apple Music          2 (1.7%)
+  Apple Music,SoundCloud       1 (0.8%)
+  Apple Music,YouTube Music    1 (0.8%)
+  Other                        1 (0.8%)
+  SoundCloud                   1 (0.8%)
+  Spotify,SoundCloud           1 (0.8%)
+  YouTube Music,SoundCloud     1 (0.8%)
+Heard any clip before (n=120):
+  No, none of them.            105 (87.5%)
+  I am not sure.               8 (6.7%)
+  Yes, one or more clips sounded familiar. 7 (5.8%)
+
+================ RANDOMIZATION CHECKS (Section 4.4) ================
+  Openness             Neutral=5.00 Spotify=5.18 Apple=5.10  F(2,117)=0.26, p=0.773
+  Agreeableness        Neutral=4.61 Spotify=4.70 Apple=4.54  F(2,117)=0.23, p=0.799
+  Extraversion         Neutral=4.39 Spotify=3.95 Apple=3.92  F(2,117)=1.17, p=0.315
+  Conscientiousness    Neutral=5.18 Spotify=5.54 Apple=5.19  F(2,117)=1.21, p=0.302
+  Emotional stability  Neutral=4.79 Spotify=5.15 Apple=4.71  F(2,117)=1.45, p=0.238
+  Streaming frequency x interface: chi2(8)=9.47, p=0.304
+
+================ MANIPULATION CHECKS (Section 4.5) ================
+Label noticed (n=120):
+  Yes                          79 (65.8%)
+  Not sure                     25 (20.8%)
+  No                           16 (13.3%)
+Perceived label location (n=104):
+  Next to or near the song title 74 (71.2%)
+  I do not remember            12 (11.5%)
+  Next to or near the artist name 8 (7.7%)
+  Near the album artwork       7 (6.7%)
+  Near the audio player controls 3 (2.9%)
+
+Evaluation composite by label:
+  None         n=240  M=3.78  SD=1.48
+  New          n=240  M=3.82  SD=1.58
+  Recommended  n=240  M=3.88  SD=1.53
+
+================ PRIMARY MODEL (H1, H2) ================
+  [H1/H2] Recommended - None: b=0.074, SE=0.111, 95% CI [-0.143, 0.292], p=0.5011
+  [H1/H2] Recommended - New: b=0.061, SE=0.110, 95% CI [-0.156, 0.278], p=0.5817
+  [d] Recommended - None: d = 0.049
+  [d] Recommended - New: d = 0.040
+
+---- Per-item label effects (Recommended - None) ----
+
+================ MODERATION (H3a-H3c) ================
+  [H3a_openness] labelNew:openness_c: b=0.033, SE=0.102, p=0.7454
+  [H3a_openness] labelRecommended:openness_c: b=0.164, SE=0.102, p=0.1070
+  [H3b_agreeableness] labelNew:agreeableness_c: b=0.098, SE=0.102, p=0.3357
+  [H3b_agreeableness] labelRecommended:agreeableness_c: b=0.383, SE=0.102, p=0.0002
+  [H3c_trust_reliance] labelNew:rec_trust_reliance_c: b=-0.078, SE=0.113, p=0.4928
+  [H3c_trust_reliance] labelRecommended:rec_trust_reliance_c: b=0.112, SE=0.113, p=0.3241
+
+---- Figure 4: agreeableness median-split cell means (median = 4.50) ----
+  High agreeableness   None         M=3.72 SE=0.13 (n=136)
+  High agreeableness   New          M=3.86 SE=0.14 (n=136)
+  High agreeableness   Recommended  M=4.08 SE=0.13 (n=136)
+  Low agreeableness    None         M=3.86 SE=0.15 (n=104)
+  Low agreeableness    New          M=3.77 SE=0.15 (n=104)
+  Low agreeableness    Recommended  M=3.63 SE=0.15 (n=104)
+
+================ EXPLORATORY: INTERFACE (RQ1) ================
+  Type-III test of label:interface interaction reported in table_interface_RQ1.csv
+  LRT label x interface: chi2(4) = 4.41, p = 0.354
+
+================ SECONDARY: LISTENING (Section 6.4) ================
+  Mean listening time per clip: M = 29.7 s (SD = 51.4 s)
+
+================ SENSITIVITY / POWER (Section 7.3) ================
+  Target standardized effect: d = 0.20 (~80% power, within-participant contrast)
+  Minimum detectable effect: 0.31 scale points (= d x SD, SD = 1.53)
+  pwr cross-check (paired, n=120, d=0.20): power = 0.58
